@@ -1,0 +1,22 @@
+body {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+    background: linear-gradient(to top, #000066 0%, #66ccff 100%);
+    color: #fbfbfb;
+    
+
+
+}
+
+img{
+    width: 500px;
+    height: 120px;
+    overflow-clip-margin: content-box;
+    padding: 20px;
+    margin:10px ;
+    border-color: #000066;
+}
+
+

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Web</title>
+    <link rel="stylesheet" href="paginaweb.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Liter&family=Montserrat:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <form>
+
+    <div class="iscrizione">
+
+        <div class="nome"><h1>Benvenuto in Music Streaming</h1>
+            <h2>Anagrafica</h2>
+            <input type="text" name="Nome" placeholder="Inserisci Nome" minlength="2"> <br>
+            <input type="text" name="Cognome" placeholder="Inserisci Cognome" minleght="2"> <br>
+
+            <div class="genere">
+                <input type="radio" name="Genere" value="Uomo"> Uomo
+                <input type="radio" name="Genere" value="Donna"> Donna
+                <input type="radio" name="Genere" value="Altro"> Altro
+            </div>
+        </div>
+        
+        <div class="nascita">
+            <h2>Data e luogo di nascita</h2>
+            <input type="date" name="Data di nascita" placeholder="Inserisci data di nascita"> <br>
+            <input type="text" name="Luogo di nascita" placeholder="Inserisci luogo di nascita"> <br>
+                <select name="regione" value="">
+                <option value="0">Abruzzo</option>
+                <option value="1">Basilicata</option>
+                <option value="2">Calabria</option>
+                <option value="3">Campania</option>
+                <option value="4">Emilia-Romagna</option>
+                <option value="5">Friuli-Venezia Giulia</option>
+                <option value="6">Lazio</option>
+                <option value="7">Liguria</option>
+                <option value="8">Lombardia</option>
+                <option value="9">Marche</option>
+                <option value="10">Molise</option>
+                <option value="11">Piemonte</option>
+                <option value="12">Puglia</option>
+                <option value="13">Sardegna</option>
+                <option value="14">Sicilia</option>
+                <option value="15">Toscana</option>
+                <option value="16">Trentino-Alto Adige</option>
+                <option value="17">Umbria</option>
+                <option value="18">Valle d'Aosta</option>
+                <option value="19">Veneto</option>
+                </select>
+
+            <input type="text" name="provincia di nascita" placeholder="Provincia di nascita">
+            <input type="text" name="CAP" placeholder="CAP"><br>
+            <input type="text" name="nazionalità" placeholder="nazionalità">
+        </div>
+
+        <div>
+            <h2>Indirizzo</h2>
+            <input type="text" name="città" placeholder="inserisci città "> <br>
+            <select name="regione" value="">
+                <option value="0">Abruzzo</option>
+                <option value="1">Basilicata</option>
+                <option value="2">Calabria</option>
+                <option value="3">Campania</option>
+                <option value="4">Emilia-Romagna</option>
+                <option value="5">Friuli-Venezia Giulia</option>
+                <option value="6">Lazio</option>
+                <option value="7">Liguria</option>
+                <option value="8">Lombardia</option>
+                <option value="9">Marche</option>
+                <option value="10">Molise</option>
+                <option value="11">Piemonte</option>
+                <option value="12">Puglia</option>
+                <option value="13">Sardegna</option>
+                <option value="14">Sicilia</option>
+                <option value="15">Toscana</option>
+                <option value="16">Trentino-Alto Adige</option>
+                <option value="17">Umbria</option>
+                <option value="18">Valle d'Aosta</option>
+                <option value="19">Veneto</option>
+                </select>
+
+            <input type="text" name="provincia" placeholder="Provincia">
+            <input type="text" name="cap" placeholder="CAP"> <br>
+            <input type="text" name="domicilio" placeholder="indirizzo">
+            <input type="number" name="civico" placeholder="Numero civico">
+
+        </div>
+
+        <div classe="contatti">
+            <h2>Contatti</h2>
+            <input type="number" name="telefono" placeholder="telefono" > 
+            <input type="email" placeholder="email">
+
+        </div>
+
+        <div class="preferenze">
+
+            <h3>Che genere di musica ascolti?</h3>
+            <input type="checkbox" name="blues" value="blues"/> Blues
+            <br />
+            <input type="checkbox" name="classica" value="classica"/> Classica
+            <br />
+            <input type="checkbox" name="disco" value="disco"/> Disco
+            <br>
+            <input type="checkbox" name="hip Hop" value="hip hop"/> Hip hop
+            <br>
+            <input type="checkbox" name="jazz" value="jazz"/> Jazz
+            <br>
+            <input type="checkbox" name="metal" value="metal"/> Metal
+            <br>
+            <input type="checkbox" name="pop" value="pop"/> Pop
+            <br>
+            <input type="checkbox" name="rock" value="rock"/> Rock
+            <br>
+            <input type="checkbox" name="tecno" value="tecno"/> Tecno
+            <br>
+            
+            <br>
+            <textarea name="motivi" placeholder="Altro..." rows="8" cols="80"></textarea>
+        </div>
+
+        <div class="conferma">
+            <h2>Vuoi creare un account?</h2>
+            <input type="radio" name="scelta" value="Sì"> Sì
+            <input type="radio" name="scelta" value="No"> No
+            <br>
+            <br><input type="checkbox" name="Termini e condizioni" value="Accetto"> "Accetto Termini e condizioni"
+            <br>
+            
+            <br>
+            <input type="text" name="nome Utente" placeholder="Nome Utente">
+            <br>
+            <input type="password" name="password" placeholder="password">
+            <br>
+
+            <br>
+            <input type="submit" value="Invia Registazione">
+        </div>
+
+       
+
+        
+
+    </div>
+    </form>
+</body>
+</html>
